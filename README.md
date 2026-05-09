@@ -16,11 +16,15 @@
 </p>
 
 <p align="center">
-  <a href="docs/index.html">View Showcase</a> ·
+  <a href="https://queukat.github.io/animeta-nexus/">View Command Center</a> ·
   <a href="#run-the-demo">Run Demo</a> ·
   <a href="#architecture">Architecture</a> ·
   <a href="docs/PRESENTATION_DOCTRINE.md">Doctrine</a> ·
   <a href="docs/OPERATING_ROADMAP.md">Roadmap</a>
+</p>
+
+<p align="center">
+  <a href="https://queukat.github.io/animeta-nexus/"><strong>Live Metadata Command Center</strong></a>
 </p>
 
 ## The Metadata Problem
