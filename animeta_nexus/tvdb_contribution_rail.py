@@ -22,7 +22,7 @@ from animeta_nexus import (
 )
 
 
-def parse_args() -> argparse.Namespace:
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Push prepared TVDB episode metadata from checkpoint via Playwright."
     )
@@ -35,7 +35,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--max-items", type=int, help="Limit how many checkpoint items to push in one run.")
     parser.add_argument("--target-lang", default=DEFAULT_TARGET_LANGUAGE, help="TVDB target language code, for example eng, spa, fra.")
     parser.add_argument("--log-level", default="INFO", help="Logger level.")
-    opts = parser.parse_args()
+    opts = parser.parse_args(argv)
 
     if opts.slow_mo_ms < 0:
         parser.error("--slow-mo-ms must be >= 0")
@@ -49,8 +49,8 @@ def parse_args() -> argparse.Namespace:
     return opts
 
 
-def main() -> None:
-    opts = parse_args()
+def main(argv: list[str] | None = None) -> None:
+    opts = parse_args(argv)
     ensure_env_loaded(("TVDB_PASSWORD",))
 
     logger.remove()

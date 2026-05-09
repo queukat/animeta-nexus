@@ -117,8 +117,16 @@ or controlled TVDB-backed contribution workflows.
 The public demo does not require TVDB credentials, model credentials, network
 access, or private runtime files.
 
+Install the local package surface:
+
 ```powershell
-python scripts/generate_metadata_command_center.py
+python -m pip install -e .
+```
+
+Regenerate the Command Center:
+
+```powershell
+animeta command-center --refresh-demo-data
 ```
 
 This regenerates:
@@ -133,6 +141,12 @@ This regenerates:
 The showcase includes a recovery funnel, placeholder elimination metrics, a
 language bridge, before/after episode cards, status distribution, quality gates,
 and a roadmap.
+
+Run the local safety check:
+
+```powershell
+animeta doctor
+```
 
 ## Presentation Doctrine
 
@@ -160,14 +174,14 @@ keeps demo data synthetic and secret-safe.
 Install runtime dependencies:
 
 ```powershell
-python -m pip install -r requirements.txt
+python -m pip install -e .
 python -m playwright install chromium
 ```
 
-Generate records for one TVDB series:
+Generate records for one TVDB series through the CLI command surface:
 
 ```powershell
-python -m animeta_nexus.metadata_reconstruction_core `
+animeta reconstruct `
   --series-id 12345 `
   --target-lang <tvdb_language_code> `
   --target-language-name "<Language>"
@@ -176,7 +190,7 @@ python -m animeta_nexus.metadata_reconstruction_core `
 Push reviewed checkpoint records through the optional browser workflow:
 
 ```powershell
-python -m animeta_nexus.tvdb_contribution_rail `
+animeta push `
   --checkpoint-file animeta_nexus/metadata_reconstruction_ledger.json `
   --target-lang <tvdb_language_code>
 ```
@@ -210,6 +224,7 @@ files, cookies, runtime queues, or private processing logs.
 ```text
 Product Surface
   README.md
+  pyproject.toml
   docs/index.html
   docs/assets/*
   docs/demo/*
@@ -219,6 +234,8 @@ Demo Generation
 
 Runtime Pipeline
   animeta_nexus/
+    cli.py
+    metadata_command_center.py
     metadata_reconstruction_core.py
     operational_metadata_ledger.py
     runtime_environment.py

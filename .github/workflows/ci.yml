@@ -1,0 +1,63 @@
+name: Metadata Recovery System CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  command-surface:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install package
+        run: python -m pip install -e .
+
+      - name: Compile command surface
+        run: python -m compileall -q animeta_nexus scripts
+
+      - name: Regenerate Command Center
+        run: animeta command-center --refresh-demo-data
+
+      - name: Validate demo JSON
+        run: |
+          python -m json.tool docs/demo/source_signal_corpus.json > /dev/null
+          python -m json.tool docs/demo/reconstruction_core_output.json > /dev/null
+          python -m json.tool docs/demo/command_center_report.json > /dev/null
+
+      - name: Run doctor
+        run: animeta doctor
+
+      - name: Public surface hygiene
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          roots = [Path("README.md"), Path("docs"), Path("animeta_nexus"), Path("scripts")]
+          forbidden = [
+              re.compile(r"[\u0400-\u04FF]"),
+              re.compile(r"\bsk-[A-Za-z0-9_-]{20,}"),
+              re.compile(r"C:\\Users\\", re.IGNORECASE),
+          ]
+          failed = []
+          for root in roots:
+              files = [root] if root.is_file() else [p for p in root.rglob("*") if p.is_file()]
+              for path in files:
+                  if "__pycache__" in path.parts or path.suffix == ".pyc" or any(part.endswith(".egg-info") for part in path.parts):
+                      continue
+                  text = path.read_text(encoding="utf-8", errors="ignore")
+                  if any(pattern.search(text) for pattern in forbidden):
+                      failed.append(str(path))
+          if failed:
+              raise SystemExit("Public hygiene check failed: " + ", ".join(failed))
+          PY

@@ -2290,7 +2290,7 @@ async def main_async(opts: argparse.Namespace) -> None:
         )
 
 
-def parse_args() -> argparse.Namespace:
+def parse_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
     p = argparse.ArgumentParser(
         description="Bulk reconstruct localized TVDB episode metadata with an optional review-first push stage."
     )
@@ -2320,7 +2320,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--push-max-items", type=int, help="Limit records in one push run.")
     p.add_argument("--push-state-file", default=DEFAULT_STATE_FILE, help="Path to the Playwright storage_state file.")
     p.add_argument("--log-level", default="INFO", help="Logging level.")
-    opts = p.parse_args()
+    opts = p.parse_args(argv)
 
     has_translate_scope = bool(opts.season_id or opts.series_id or opts.all_anime)
     if opts.push_only and has_translate_scope:
@@ -2351,8 +2351,8 @@ def parse_args() -> argparse.Namespace:
     return opts
 
 
-def main() -> None:
-    opts = parse_args()
+def main(argv: Optional[List[str]] = None) -> None:
+    opts = parse_args(argv)
 
     logger.remove()
     logger.add(

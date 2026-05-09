@@ -76,6 +76,8 @@ Safe to publish:
 - static showcase page;
 - sanitized README and roadmap;
 - public-safe runtime code;
+- installable package metadata;
+- `animeta` command surface;
 - empty `.env.example`.
 
 Do not publish:

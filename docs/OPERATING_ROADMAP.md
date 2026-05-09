@@ -25,17 +25,25 @@ Deliverables:
 
 Goal: make the operational workflow easier to run and explain.
 
+Initial package surface:
+
+```powershell
+python -m pip install -e .
+animeta command-center
+animeta doctor
+```
+
 Possible command shape:
 
 ```powershell
-python -m animeta_nexus.metadata_reconstruction_core --series-id 418367 --target-lang eng
-python -m animeta_nexus.metadata_reconstruction_core --season-id 123456 --target-lang spa
-python -m animeta_nexus.tvdb_contribution_rail --checkpoint-file animeta_nexus/metadata_reconstruction_ledger.json --target-lang eng
+animeta reconstruct --series-id 418367 --target-lang eng
+animeta reconstruct --season-id 123456 --target-lang spa
+animeta push --checkpoint-file animeta_nexus/metadata_reconstruction_ledger.json --target-lang eng
 ```
 
 Planned improvements:
 
-- clearer command grouping around named capability domains;
+- richer help for each named capability domain;
 - dry-run mode;
 - explicit review mode;
 - better progress output;
