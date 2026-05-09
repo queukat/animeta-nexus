@@ -1,0 +1,430 @@
+{
+  "generated_at": "2026-05-09T19:52:55+00:00",
+  "project_name": "AniMeta Nexus",
+  "tagline": "Stop browsing empty episode pages. Start owning your metadata.",
+  "description": "A TVDB-powered metadata intelligence layer for anime libraries: Signal Acquisition, Placeholder Suppression, Continuity-Aware Context Assembly, Semantic Reconstruction, Review Governance, and Contribution-Ready Distribution in one controlled recovery system.",
+  "demo_summary": {
+    "records": 36,
+    "series": 3,
+    "source_languages": {
+      "jpn": 24,
+      "zho": 12
+    },
+    "target_languages": {
+      "eng": 36
+    }
+  },
+  "metrics": {
+    "demo_corpus_episodes": 36,
+    "metadata_gaps_detected": 33,
+    "titles_recovered": 32,
+    "summaries_recovered": 31,
+    "placeholder_records_suppressed": 15,
+    "review_ready_records": 27,
+    "recovery_rate": 97.0,
+    "real_workflow_scale_note": "Local runtime has processed large private queues; public demo data is intentionally synthetic."
+  },
+  "funnel": [
+    {
+      "stage": "Discovered",
+      "count": 36
+    },
+    {
+      "stage": "Incomplete",
+      "count": 33
+    },
+    {
+      "stage": "Context Packaged",
+      "count": 33
+    },
+    {
+      "stage": "Reconstructed",
+      "count": 32
+    },
+    {
+      "stage": "Review Ready",
+      "count": 27
+    },
+    {
+      "stage": "Exported / Contributed",
+      "count": 1
+    }
+  ],
+  "status_distribution": {
+    "failed": 1,
+    "generated": 2,
+    "locked": 2,
+    "pushed": 1,
+    "review_ready": 27,
+    "skipped_existing": 3
+  },
+  "language_bridge": {
+    "source": "Japanese / Chinese / English source signals",
+    "target": "Configurable target-language metadata",
+    "demo_target": "English demo records"
+  },
+  "placeholder_stats": {
+    "missing_target_overview": 30,
+    "missing_target_title": 33,
+    "numeric_source_title": 3,
+    "placeholder_target_title": 9,
+    "weak_source_overview": 3
+  },
+  "before_after_examples": [
+    {
+      "series_name": "Star Harbor Logbook",
+      "episode": "S01E01",
+      "before_title": "empty",
+      "before_overview": "empty",
+      "after_title": "Lanterns at the South Pier",
+      "after_overview": "A clean episode record for Star Harbor Logbook that keeps the source intent, removes placeholder noise, and is ready for human review.",
+      "status": "review_ready",
+      "issue_flags": [
+        "missing_target_title",
+        "missing_target_overview"
+      ]
+    },
+    {
+      "series_name": "Star Harbor Logbook",
+      "episode": "S01E02",
+      "before_title": "TBA",
+      "before_overview": "empty",
+      "after_title": "The Quiet Signal",
+      "after_overview": "A clean episode record for Star Harbor Logbook that keeps the source intent, removes placeholder noise, and is ready for human review.",
+      "status": "review_ready",
+      "issue_flags": [
+        "missing_target_title",
+        "missing_target_overview",
+        "placeholder_target_title"
+      ]
+    },
+    {
+      "series_name": "Star Harbor Logbook",
+      "episode": "S01E03",
+      "before_title": "empty",
+      "before_overview": "empty",
+      "after_title": "A Map Written in Rain",
+      "after_overview": "A clean episode record for Star Harbor Logbook that keeps the source intent, removes placeholder noise, and is ready for human review.",
+      "status": "review_ready",
+      "issue_flags": [
+        "missing_target_title",
+        "missing_target_overview"
+      ]
+    },
+    {
+      "series_name": "Star Harbor Logbook",
+      "episode": "S01E04",
+      "before_title": "empty",
+      "before_overview": "empty",
+      "after_title": "Harbor Watch",
+      "after_overview": "A clean episode record for Star Harbor Logbook that keeps the source intent, removes placeholder noise, and is ready for human review.",
+      "status": "review_ready",
+      "issue_flags": [
+        "missing_target_title",
+        "numeric_source_title"
+      ]
+    },
+    {
+      "series_name": "Star Harbor Logbook",
+      "episode": "S01E05",
+      "before_title": "TBA",
+      "before_overview": "empty",
+      "after_title": "The Missing Tide Bell",
+      "after_overview": "A clean episode record for Star Harbor Logbook that keeps the source intent, removes placeholder noise, and is ready for human review.",
+      "status": "review_ready",
+      "issue_flags": [
+        "missing_target_title",
+        "missing_target_overview",
+        "placeholder_target_title"
+      ]
+    }
+  ],
+  "recent_records": [
+    {
+      "episode": "S01E01",
+      "series_name": "Star Harbor Logbook",
+      "source_language": "jpn",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview",
+      "generated_title": "Lanterns at the South Pier",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E02",
+      "series_name": "Star Harbor Logbook",
+      "source_language": "jpn",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview, placeholder_target_title",
+      "generated_title": "The Quiet Signal",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E03",
+      "series_name": "Star Harbor Logbook",
+      "source_language": "jpn",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview",
+      "generated_title": "A Map Written in Rain",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E04",
+      "series_name": "Star Harbor Logbook",
+      "source_language": "jpn",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, numeric_source_title",
+      "generated_title": "Harbor Watch",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E05",
+      "series_name": "Star Harbor Logbook",
+      "source_language": "jpn",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview, placeholder_target_title",
+      "generated_title": "The Missing Tide Bell",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E06",
+      "series_name": "Star Harbor Logbook",
+      "source_language": "jpn",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview",
+      "generated_title": "Night Shift at Dock Seven",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E07",
+      "series_name": "Star Harbor Logbook",
+      "source_language": "jpn",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview",
+      "generated_title": "Compass Under Glass",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E08",
+      "series_name": "Star Harbor Logbook",
+      "source_language": "jpn",
+      "target_language": "eng",
+      "issue_detected": "existing_valid_metadata",
+      "generated_title": "A Name Left in the Ledger",
+      "status": "skipped_existing",
+      "quality_flags": "existing_valid_metadata_preserved, non_destructive"
+    },
+    {
+      "episode": "S01E09",
+      "series_name": "Star Harbor Logbook",
+      "source_language": "jpn",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview, placeholder_target_title",
+      "generated_title": "Fog Over the Relay Tower",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E10",
+      "series_name": "Star Harbor Logbook",
+      "source_language": "jpn",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview, weak_source_overview",
+      "generated_title": "The Captain's Small Lie",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E11",
+      "series_name": "Star Harbor Logbook",
+      "source_language": "jpn",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview",
+      "generated_title": "Letters from the Outer Buoy",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E12",
+      "series_name": "Star Harbor Logbook",
+      "source_language": "jpn",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview",
+      "generated_title": "Signal Fire at Dawn",
+      "status": "pushed",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E01",
+      "series_name": "Clockwork Orchard",
+      "source_language": "zho",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview",
+      "generated_title": "The Spring That Would Not Turn",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E02",
+      "series_name": "Clockwork Orchard",
+      "source_language": "zho",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview, placeholder_target_title",
+      "generated_title": "Copper Leaves",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E03",
+      "series_name": "Clockwork Orchard",
+      "source_language": "zho",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview",
+      "generated_title": "A Key Beneath the Roots",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E04",
+      "series_name": "Clockwork Orchard",
+      "source_language": "zho",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, numeric_source_title",
+      "generated_title": "The Orchard Wakes",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E05",
+      "series_name": "Clockwork Orchard",
+      "source_language": "zho",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview, placeholder_target_title",
+      "generated_title": "Inventory of Lost Seeds",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E06",
+      "series_name": "Clockwork Orchard",
+      "source_language": "zho",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview",
+      "generated_title": "The Glass Beekeeper",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E07",
+      "series_name": "Clockwork Orchard",
+      "source_language": "zho",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview",
+      "generated_title": "An Hour Borrowed",
+      "status": "generated",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E08",
+      "series_name": "Clockwork Orchard",
+      "source_language": "zho",
+      "target_language": "eng",
+      "issue_detected": "existing_valid_metadata",
+      "generated_title": "The Apprentice's Repair",
+      "status": "skipped_existing",
+      "quality_flags": "existing_valid_metadata_preserved, non_destructive"
+    },
+    {
+      "episode": "S01E09",
+      "series_name": "Clockwork Orchard",
+      "source_language": "zho",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview, placeholder_target_title",
+      "generated_title": "Smoke from the East Gate",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E10",
+      "series_name": "Clockwork Orchard",
+      "source_language": "zho",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview, weak_source_overview",
+      "generated_title": "A Promise in Brass",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E11",
+      "series_name": "Clockwork Orchard",
+      "source_language": "zho",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview",
+      "generated_title": "The Bell Inside the Tree",
+      "status": "locked",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    },
+    {
+      "episode": "S01E12",
+      "series_name": "Clockwork Orchard",
+      "source_language": "zho",
+      "target_language": "eng",
+      "issue_detected": "missing_target_title, missing_target_overview",
+      "generated_title": "Harvest After Midnight",
+      "status": "review_ready",
+      "quality_flags": "placeholder_suppressed, source_ranked"
+    }
+  ],
+  "quality_gates": [
+    {
+      "name": "Metadata Signal Acquisition Array",
+      "copy": "Summons series, season, episode ordering, translation flags, aliases, and source-language hints into one source field."
+    },
+    {
+      "name": "Metadata Void Cartography Engine",
+      "copy": "Maps blank titles, missing summaries, placeholder records, and weak target fields before users fall into them."
+    },
+    {
+      "name": "Placeholder Suppression Firewall",
+      "copy": "Stops TBA, TBD, numeric-only, empty, and punctuation-only debris before reconstruction."
+    },
+    {
+      "name": "Source Intelligence Layer",
+      "copy": "Ranks original-language, fallback, and base fields instead of trusting the first string."
+    },
+    {
+      "name": "Series Continuity Engine",
+      "copy": "Packages neighboring episode signals so recurring titles, numbering, and naming patterns stay consistent."
+    },
+    {
+      "name": "Localization Policy Engine",
+      "copy": "Applies target-language rules for concise, native, database-friendly phrasing."
+    },
+    {
+      "name": "Non-Destructive Governance Layer",
+      "copy": "Protects valid existing fields and authorizes reconstruction only where recovery is needed."
+    },
+    {
+      "name": "Review-First Publishing Gate",
+      "copy": "Stages generated records for human inspection before export or contribution workflows."
+    },
+    {
+      "name": "Contribution-Ready Distribution Rail",
+      "copy": "Prepares reviewed records for JSON, review pages, sidecar exports, and controlled TVDB-backed contribution workflows."
+    }
+  ],
+  "roadmap": [
+    "Cleaner CLI wrapper",
+    "Review HTML export",
+    "Generic JSON export",
+    "NFO-style sidecars",
+    "Configurable target-language policies",
+    "Guided local mode"
+  ]
+}

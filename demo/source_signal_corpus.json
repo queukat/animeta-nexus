@@ -1,0 +1,659 @@
+[
+  {
+    "series_id": 810001,
+    "series_name": "Star Harbor Logbook",
+    "season_id": 910001,
+    "season_number": 1,
+    "episode_id": 81000101,
+    "episode_number": 1,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Minato Chronicle 1",
+    "source_overview": "The episode follows a small decision in Star Harbor Logbook and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview"
+    ]
+  },
+  {
+    "series_id": 810001,
+    "series_name": "Star Harbor Logbook",
+    "season_id": 910001,
+    "season_number": 1,
+    "episode_id": 81000102,
+    "episode_number": 2,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Minato Chronicle 2",
+    "source_overview": "The episode follows a small decision in Star Harbor Logbook and leaves enough source context for a clean localized record.",
+    "existing_target_title": "TBA",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview",
+      "placeholder_target_title"
+    ]
+  },
+  {
+    "series_id": 810001,
+    "series_name": "Star Harbor Logbook",
+    "season_id": 910001,
+    "season_number": 1,
+    "episode_id": 81000103,
+    "episode_number": 3,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Minato Chronicle 3",
+    "source_overview": "The episode follows a small decision in Star Harbor Logbook and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview"
+    ]
+  },
+  {
+    "series_id": 810001,
+    "series_name": "Star Harbor Logbook",
+    "season_id": 910001,
+    "season_number": 1,
+    "episode_id": 81000104,
+    "episode_number": 4,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "4",
+    "source_overview": "The episode follows a small decision in Star Harbor Logbook and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "numeric_source_title"
+    ]
+  },
+  {
+    "series_id": 810001,
+    "series_name": "Star Harbor Logbook",
+    "season_id": 910001,
+    "season_number": 1,
+    "episode_id": 81000105,
+    "episode_number": 5,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Minato Chronicle 5",
+    "source_overview": "The episode follows a small decision in Star Harbor Logbook and leaves enough source context for a clean localized record.",
+    "existing_target_title": "TBA",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview",
+      "placeholder_target_title"
+    ]
+  },
+  {
+    "series_id": 810001,
+    "series_name": "Star Harbor Logbook",
+    "season_id": 910001,
+    "season_number": 1,
+    "episode_id": 81000106,
+    "episode_number": 6,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Minato Chronicle 6",
+    "source_overview": "The episode follows a small decision in Star Harbor Logbook and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview"
+    ]
+  },
+  {
+    "series_id": 810001,
+    "series_name": "Star Harbor Logbook",
+    "season_id": 910001,
+    "season_number": 1,
+    "episode_id": 81000107,
+    "episode_number": 7,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Minato Chronicle 7",
+    "source_overview": "The episode follows a small decision in Star Harbor Logbook and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview"
+    ]
+  },
+  {
+    "series_id": 810001,
+    "series_name": "Star Harbor Logbook",
+    "season_id": 910001,
+    "season_number": 1,
+    "episode_id": 81000108,
+    "episode_number": 8,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Minato Chronicle 8",
+    "source_overview": "The episode follows a small decision in Star Harbor Logbook and leaves enough source context for a clean localized record.",
+    "existing_target_title": "A Name Left in the Ledger",
+    "existing_target_overview": "Star Harbor Logbook already has a concise, usable episode summary, so the pipeline preserves it.",
+    "issue_flags": [
+      "existing_valid_metadata"
+    ]
+  },
+  {
+    "series_id": 810001,
+    "series_name": "Star Harbor Logbook",
+    "season_id": 910001,
+    "season_number": 1,
+    "episode_id": 81000109,
+    "episode_number": 9,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Minato Chronicle 9",
+    "source_overview": "The episode follows a small decision in Star Harbor Logbook and leaves enough source context for a clean localized record.",
+    "existing_target_title": "TBA",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview",
+      "placeholder_target_title"
+    ]
+  },
+  {
+    "series_id": 810001,
+    "series_name": "Star Harbor Logbook",
+    "season_id": 910001,
+    "season_number": 1,
+    "episode_id": 81000110,
+    "episode_number": 10,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Minato Chronicle 10",
+    "source_overview": "TBD",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview",
+      "weak_source_overview"
+    ]
+  },
+  {
+    "series_id": 810001,
+    "series_name": "Star Harbor Logbook",
+    "season_id": 910001,
+    "season_number": 1,
+    "episode_id": 81000111,
+    "episode_number": 11,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Minato Chronicle 11",
+    "source_overview": "The episode follows a small decision in Star Harbor Logbook and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview"
+    ]
+  },
+  {
+    "series_id": 810001,
+    "series_name": "Star Harbor Logbook",
+    "season_id": 910001,
+    "season_number": 1,
+    "episode_id": 81000112,
+    "episode_number": 12,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Minato Chronicle 12",
+    "source_overview": "The episode follows a small decision in Star Harbor Logbook and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview"
+    ]
+  },
+  {
+    "series_id": 810002,
+    "series_name": "Clockwork Orchard",
+    "season_id": 910002,
+    "season_number": 1,
+    "episode_id": 81000201,
+    "episode_number": 1,
+    "source_language": "zho",
+    "target_language": "eng",
+    "source_title": "Orchard Record 1",
+    "source_overview": "The episode follows a small decision in Clockwork Orchard and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview"
+    ]
+  },
+  {
+    "series_id": 810002,
+    "series_name": "Clockwork Orchard",
+    "season_id": 910002,
+    "season_number": 1,
+    "episode_id": 81000202,
+    "episode_number": 2,
+    "source_language": "zho",
+    "target_language": "eng",
+    "source_title": "Orchard Record 2",
+    "source_overview": "The episode follows a small decision in Clockwork Orchard and leaves enough source context for a clean localized record.",
+    "existing_target_title": "TBA",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview",
+      "placeholder_target_title"
+    ]
+  },
+  {
+    "series_id": 810002,
+    "series_name": "Clockwork Orchard",
+    "season_id": 910002,
+    "season_number": 1,
+    "episode_id": 81000203,
+    "episode_number": 3,
+    "source_language": "zho",
+    "target_language": "eng",
+    "source_title": "Orchard Record 3",
+    "source_overview": "The episode follows a small decision in Clockwork Orchard and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview"
+    ]
+  },
+  {
+    "series_id": 810002,
+    "series_name": "Clockwork Orchard",
+    "season_id": 910002,
+    "season_number": 1,
+    "episode_id": 81000204,
+    "episode_number": 4,
+    "source_language": "zho",
+    "target_language": "eng",
+    "source_title": "4",
+    "source_overview": "The episode follows a small decision in Clockwork Orchard and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "numeric_source_title"
+    ]
+  },
+  {
+    "series_id": 810002,
+    "series_name": "Clockwork Orchard",
+    "season_id": 910002,
+    "season_number": 1,
+    "episode_id": 81000205,
+    "episode_number": 5,
+    "source_language": "zho",
+    "target_language": "eng",
+    "source_title": "Orchard Record 5",
+    "source_overview": "The episode follows a small decision in Clockwork Orchard and leaves enough source context for a clean localized record.",
+    "existing_target_title": "TBA",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview",
+      "placeholder_target_title"
+    ]
+  },
+  {
+    "series_id": 810002,
+    "series_name": "Clockwork Orchard",
+    "season_id": 910002,
+    "season_number": 1,
+    "episode_id": 81000206,
+    "episode_number": 6,
+    "source_language": "zho",
+    "target_language": "eng",
+    "source_title": "Orchard Record 6",
+    "source_overview": "The episode follows a small decision in Clockwork Orchard and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview"
+    ]
+  },
+  {
+    "series_id": 810002,
+    "series_name": "Clockwork Orchard",
+    "season_id": 910002,
+    "season_number": 1,
+    "episode_id": 81000207,
+    "episode_number": 7,
+    "source_language": "zho",
+    "target_language": "eng",
+    "source_title": "Orchard Record 7",
+    "source_overview": "The episode follows a small decision in Clockwork Orchard and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview"
+    ]
+  },
+  {
+    "series_id": 810002,
+    "series_name": "Clockwork Orchard",
+    "season_id": 910002,
+    "season_number": 1,
+    "episode_id": 81000208,
+    "episode_number": 8,
+    "source_language": "zho",
+    "target_language": "eng",
+    "source_title": "Orchard Record 8",
+    "source_overview": "The episode follows a small decision in Clockwork Orchard and leaves enough source context for a clean localized record.",
+    "existing_target_title": "The Apprentice's Repair",
+    "existing_target_overview": "Clockwork Orchard already has a concise, usable episode summary, so the pipeline preserves it.",
+    "issue_flags": [
+      "existing_valid_metadata"
+    ]
+  },
+  {
+    "series_id": 810002,
+    "series_name": "Clockwork Orchard",
+    "season_id": 910002,
+    "season_number": 1,
+    "episode_id": 81000209,
+    "episode_number": 9,
+    "source_language": "zho",
+    "target_language": "eng",
+    "source_title": "Orchard Record 9",
+    "source_overview": "The episode follows a small decision in Clockwork Orchard and leaves enough source context for a clean localized record.",
+    "existing_target_title": "TBA",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview",
+      "placeholder_target_title"
+    ]
+  },
+  {
+    "series_id": 810002,
+    "series_name": "Clockwork Orchard",
+    "season_id": 910002,
+    "season_number": 1,
+    "episode_id": 81000210,
+    "episode_number": 10,
+    "source_language": "zho",
+    "target_language": "eng",
+    "source_title": "Orchard Record 10",
+    "source_overview": "TBD",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview",
+      "weak_source_overview"
+    ]
+  },
+  {
+    "series_id": 810002,
+    "series_name": "Clockwork Orchard",
+    "season_id": 910002,
+    "season_number": 1,
+    "episode_id": 81000211,
+    "episode_number": 11,
+    "source_language": "zho",
+    "target_language": "eng",
+    "source_title": "Orchard Record 11",
+    "source_overview": "The episode follows a small decision in Clockwork Orchard and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview"
+    ]
+  },
+  {
+    "series_id": 810002,
+    "series_name": "Clockwork Orchard",
+    "season_id": 910002,
+    "season_number": 1,
+    "episode_id": 81000212,
+    "episode_number": 12,
+    "source_language": "zho",
+    "target_language": "eng",
+    "source_title": "Orchard Record 12",
+    "source_overview": "The episode follows a small decision in Clockwork Orchard and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview"
+    ]
+  },
+  {
+    "series_id": 810003,
+    "series_name": "Northbound After School",
+    "season_id": 910003,
+    "season_number": 1,
+    "episode_id": 81000301,
+    "episode_number": 1,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Northbound Note 1",
+    "source_overview": "The episode follows a small decision in Northbound After School and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview"
+    ]
+  },
+  {
+    "series_id": 810003,
+    "series_name": "Northbound After School",
+    "season_id": 910003,
+    "season_number": 1,
+    "episode_id": 81000302,
+    "episode_number": 2,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Northbound Note 2",
+    "source_overview": "The episode follows a small decision in Northbound After School and leaves enough source context for a clean localized record.",
+    "existing_target_title": "TBA",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview",
+      "placeholder_target_title"
+    ]
+  },
+  {
+    "series_id": 810003,
+    "series_name": "Northbound After School",
+    "season_id": 910003,
+    "season_number": 1,
+    "episode_id": 81000303,
+    "episode_number": 3,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Northbound Note 3",
+    "source_overview": "The episode follows a small decision in Northbound After School and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview"
+    ]
+  },
+  {
+    "series_id": 810003,
+    "series_name": "Northbound After School",
+    "season_id": 910003,
+    "season_number": 1,
+    "episode_id": 81000304,
+    "episode_number": 4,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "4",
+    "source_overview": "The episode follows a small decision in Northbound After School and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "A partial summary exists, but the title is still missing.",
+    "issue_flags": [
+      "missing_target_title",
+      "numeric_source_title"
+    ]
+  },
+  {
+    "series_id": 810003,
+    "series_name": "Northbound After School",
+    "season_id": 910003,
+    "season_number": 1,
+    "episode_id": 81000305,
+    "episode_number": 5,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Northbound Note 5",
+    "source_overview": "The episode follows a small decision in Northbound After School and leaves enough source context for a clean localized record.",
+    "existing_target_title": "TBA",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview",
+      "placeholder_target_title"
+    ]
+  },
+  {
+    "series_id": 810003,
+    "series_name": "Northbound After School",
+    "season_id": 910003,
+    "season_number": 1,
+    "episode_id": 81000306,
+    "episode_number": 6,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Northbound Note 6",
+    "source_overview": "The episode follows a small decision in Northbound After School and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview"
+    ]
+  },
+  {
+    "series_id": 810003,
+    "series_name": "Northbound After School",
+    "season_id": 910003,
+    "season_number": 1,
+    "episode_id": 81000307,
+    "episode_number": 7,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Northbound Note 7",
+    "source_overview": "The episode follows a small decision in Northbound After School and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview"
+    ]
+  },
+  {
+    "series_id": 810003,
+    "series_name": "Northbound After School",
+    "season_id": 910003,
+    "season_number": 1,
+    "episode_id": 81000308,
+    "episode_number": 8,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Northbound Note 8",
+    "source_overview": "The episode follows a small decision in Northbound After School and leaves enough source context for a clean localized record.",
+    "existing_target_title": "The Station Without a Clock",
+    "existing_target_overview": "Northbound After School already has a concise, usable episode summary, so the pipeline preserves it.",
+    "issue_flags": [
+      "existing_valid_metadata"
+    ]
+  },
+  {
+    "series_id": 810003,
+    "series_name": "Northbound After School",
+    "season_id": 910003,
+    "season_number": 1,
+    "episode_id": 81000309,
+    "episode_number": 9,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Northbound Note 9",
+    "source_overview": "The episode follows a small decision in Northbound After School and leaves enough source context for a clean localized record.",
+    "existing_target_title": "TBA",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview",
+      "placeholder_target_title"
+    ]
+  },
+  {
+    "series_id": 810003,
+    "series_name": "Northbound After School",
+    "season_id": 910003,
+    "season_number": 1,
+    "episode_id": 81000310,
+    "episode_number": 10,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Northbound Note 10",
+    "source_overview": "TBD",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview",
+      "weak_source_overview"
+    ]
+  },
+  {
+    "series_id": 810003,
+    "series_name": "Northbound After School",
+    "season_id": 910003,
+    "season_number": 1,
+    "episode_id": 81000311,
+    "episode_number": 11,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Northbound Note 11",
+    "source_overview": "The episode follows a small decision in Northbound After School and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview"
+    ]
+  },
+  {
+    "series_id": 810003,
+    "series_name": "Northbound After School",
+    "season_id": 910003,
+    "season_number": 1,
+    "episode_id": 81000312,
+    "episode_number": 12,
+    "source_language": "jpn",
+    "target_language": "eng",
+    "source_title": "Northbound Note 12",
+    "source_overview": "The episode follows a small decision in Northbound After School and leaves enough source context for a clean localized record.",
+    "existing_target_title": "",
+    "existing_target_overview": "",
+    "issue_flags": [
+      "missing_target_title",
+      "missing_target_overview"
+    ]
+  }
+]

@@ -1,0 +1,512 @@
+[
+  {
+    "episode_id": 81000101,
+    "generated_title": "Lanterns at the South Pier",
+    "generated_overview": "A clean episode record for Star Harbor Logbook that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000102,
+    "generated_title": "The Quiet Signal",
+    "generated_overview": "A clean episode record for Star Harbor Logbook that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000103,
+    "generated_title": "A Map Written in Rain",
+    "generated_overview": "A clean episode record for Star Harbor Logbook that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000104,
+    "generated_title": "Harbor Watch",
+    "generated_overview": "A clean episode record for Star Harbor Logbook that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000105,
+    "generated_title": "The Missing Tide Bell",
+    "generated_overview": "A clean episode record for Star Harbor Logbook that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000106,
+    "generated_title": "Night Shift at Dock Seven",
+    "generated_overview": "A clean episode record for Star Harbor Logbook that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000107,
+    "generated_title": "Compass Under Glass",
+    "generated_overview": "A clean episode record for Star Harbor Logbook that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000108,
+    "generated_title": "A Name Left in the Ledger",
+    "generated_overview": "Star Harbor Logbook already has a concise, usable episode summary, so the pipeline preserves it.",
+    "status": "skipped_existing",
+    "warnings": [],
+    "quality_flags": [
+      "existing_valid_metadata_preserved",
+      "non_destructive"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000109,
+    "generated_title": "Fog Over the Relay Tower",
+    "generated_overview": "A clean episode record for Star Harbor Logbook that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000110,
+    "generated_title": "The Captain's Small Lie",
+    "generated_overview": "A clean episode record for Star Harbor Logbook that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [
+      "overview_source_was_weak"
+    ],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000111,
+    "generated_title": "Letters from the Outer Buoy",
+    "generated_overview": "A clean episode record for Star Harbor Logbook that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000112,
+    "generated_title": "Signal Fire at Dawn",
+    "generated_overview": "A clean episode record for Star Harbor Logbook that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "pushed",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000201,
+    "generated_title": "The Spring That Would Not Turn",
+    "generated_overview": "A clean episode record for Clockwork Orchard that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000202,
+    "generated_title": "Copper Leaves",
+    "generated_overview": "A clean episode record for Clockwork Orchard that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000203,
+    "generated_title": "A Key Beneath the Roots",
+    "generated_overview": "A clean episode record for Clockwork Orchard that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000204,
+    "generated_title": "The Orchard Wakes",
+    "generated_overview": "A clean episode record for Clockwork Orchard that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000205,
+    "generated_title": "Inventory of Lost Seeds",
+    "generated_overview": "A clean episode record for Clockwork Orchard that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000206,
+    "generated_title": "The Glass Beekeeper",
+    "generated_overview": "A clean episode record for Clockwork Orchard that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000207,
+    "generated_title": "An Hour Borrowed",
+    "generated_overview": "A clean episode record for Clockwork Orchard that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "generated",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000208,
+    "generated_title": "The Apprentice's Repair",
+    "generated_overview": "Clockwork Orchard already has a concise, usable episode summary, so the pipeline preserves it.",
+    "status": "skipped_existing",
+    "warnings": [],
+    "quality_flags": [
+      "existing_valid_metadata_preserved",
+      "non_destructive"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000209,
+    "generated_title": "Smoke from the East Gate",
+    "generated_overview": "A clean episode record for Clockwork Orchard that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000210,
+    "generated_title": "A Promise in Brass",
+    "generated_overview": "A clean episode record for Clockwork Orchard that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [
+      "overview_source_was_weak"
+    ],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000211,
+    "generated_title": "The Bell Inside the Tree",
+    "generated_overview": "A clean episode record for Clockwork Orchard that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "locked",
+    "warnings": [
+      "contribution_target_locked"
+    ],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000212,
+    "generated_title": "Harvest After Midnight",
+    "generated_overview": "A clean episode record for Clockwork Orchard that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000301,
+    "generated_title": "The Last Bus Leaves Early",
+    "generated_overview": "A clean episode record for Northbound After School that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000302,
+    "generated_title": "Notebook on Platform Two",
+    "generated_overview": "A clean episode record for Northbound After School that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000303,
+    "generated_title": "A Detour Through Snow",
+    "generated_overview": "A clean episode record for Northbound After School that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000304,
+    "generated_title": "The Clubroom Key",
+    "generated_overview": "A clean episode record for Northbound After School that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000305,
+    "generated_title": "Borrowed Gloves",
+    "generated_overview": "A clean episode record for Northbound After School that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000306,
+    "generated_title": "",
+    "generated_overview": "",
+    "status": "failed",
+    "warnings": [
+      "demo_generation_failed_for_review"
+    ],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000307,
+    "generated_title": "Cafe at the Terminal",
+    "generated_overview": "A clean episode record for Northbound After School that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000308,
+    "generated_title": "The Station Without a Clock",
+    "generated_overview": "Northbound After School already has a concise, usable episode summary, so the pipeline preserves it.",
+    "status": "skipped_existing",
+    "warnings": [],
+    "quality_flags": [
+      "existing_valid_metadata_preserved",
+      "non_destructive"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000309,
+    "generated_title": "Message in the Lost-and-Found",
+    "generated_overview": "A clean episode record for Northbound After School that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "generated",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000310,
+    "generated_title": "Tracks Under Moonlight",
+    "generated_overview": "A clean episode record for Northbound After School that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [
+      "overview_source_was_weak"
+    ],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000311,
+    "generated_title": "The Festival Train",
+    "generated_overview": "A clean episode record for Northbound After School that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "review_ready",
+    "warnings": [],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  },
+  {
+    "episode_id": 81000312,
+    "generated_title": "Next Stop, Spring",
+    "generated_overview": "A clean episode record for Northbound After School that keeps the source intent, removes placeholder noise, and is ready for human review.",
+    "status": "locked",
+    "warnings": [
+      "contribution_target_locked"
+    ],
+    "quality_flags": [
+      "placeholder_suppressed",
+      "source_ranked",
+      "context_packaged",
+      "policy_checked"
+    ],
+    "reconstruction_notes": "Synthetic demo record generated from ranked source fields and continuity-aware neighboring episode context."
+  }
+]
