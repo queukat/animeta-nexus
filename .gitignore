@@ -1,0 +1,50 @@
+# Credentials and local config
+.env
+*.env
+.env.*
+!.env.example
+
+# Runtime checkpoints and private operational state
+animeta_nexus/*checkpoint*.json
+animeta_nexus/*ledger*.json
+animeta_nexus/*state*.json
+*checkpoint*.json
+*ledger*.json
+*state*.json
+
+# Logs and temporary output
+*.log
+logs/
+tmp/
+temp/
+
+# Browser/session state
+browser_profiles/
+cookies/
+session/
+sessions/
+playwright/.auth/
+.storage/
+.local_state/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local databases and generated private exports
+*.sqlite
+*.db
+exports/
+metadata/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

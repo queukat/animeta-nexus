@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 180" role="img" aria-labelledby="title desc">
+  <title id="title">AniMeta Nexus workflow</title>
+  <desc id="desc">Discovery to review-first export workflow.</desc>
+  <defs>
+    <linearGradient id="rail" x1="0" x2="1">
+      <stop offset="0" stop-color="#38d5ff"/>
+      <stop offset=".5" stop-color="#f4c95d"/>
+      <stop offset="1" stop-color="#ff5c8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="180" rx="20" fill="#0c1320"/>
+  <path d="M85 92H1015" stroke="url(#rail)" stroke-width="5" stroke-linecap="round"/>
+  <g font-family="Inter,Segoe UI,sans-serif" text-anchor="middle">
+    <g transform="translate(95 92)"><circle r="32" fill="#12263a" stroke="#38d5ff"/><text y="58" fill="#d9eef8" font-size="14">Discovery</text></g>
+    <g transform="translate(275 92)"><circle r="32" fill="#1d1b2f" stroke="#a98cff"/><text y="58" fill="#e8ddff" font-size="14">Gap Detection</text></g>
+    <g transform="translate(455 92)"><circle r="32" fill="#2a2116" stroke="#f4c95d"/><text y="58" fill="#fff0be" font-size="14">Source Intelligence</text></g>
+    <g transform="translate(635 92)"><circle r="32" fill="#132319" stroke="#58d68d"/><text y="58" fill="#dff5e8" font-size="14">Reconstruction</text></g>
+    <g transform="translate(815 92)"><circle r="32" fill="#2a1620" stroke="#ff5c8a"/><text y="58" fill="#ffe1e9" font-size="14">Review</text></g>
+    <g transform="translate(995 92)"><circle r="32" fill="#14212b" stroke="#8ce4ff"/><text y="58" fill="#d9eef8" font-size="14">Export</text></g>
+  </g>
+</svg>

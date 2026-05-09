@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">AniMeta Nexus metadata command surface</title>
+  <desc id="desc">Abstract episode cards flowing through a metadata reconstruction core.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="0.52" stop-color="#101827"/>
+      <stop offset="1" stop-color="#12111f"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#38d5ff"/>
+      <stop offset="0.5" stop-color="#f4c95d"/>
+      <stop offset="1" stop-color="#ff5c8a"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+  <path d="M70 422 C230 292, 360 326, 510 222 S850 94, 1130 174" fill="none" stroke="url(#line)" stroke-width="4" opacity=".8" filter="url(#glow)"/>
+  <g fill="none" stroke="#27415f" opacity=".7">
+    <path d="M110 80H1090M110 160H1090M110 240H1090M110 320H1090M110 400H1090"/>
+    <path d="M170 50V470M320 50V470M470 50V470M620 50V470M770 50V470M920 50V470M1070 50V470"/>
+  </g>
+  <g transform="translate(90 100)">
+    <rect width="230" height="118" rx="16" fill="#101f32" stroke="#2e5c7a"/>
+    <text x="24" y="38" fill="#8ce4ff" font-family="Inter,Segoe UI,sans-serif" font-size="17" font-weight="700">Source Signals</text>
+    <text x="24" y="70" fill="#d8e8f4" font-family="Inter,Segoe UI,sans-serif" font-size="14">TVDB episode payloads</text>
+    <text x="24" y="95" fill="#8aa4b8" font-family="Inter,Segoe UI,sans-serif" font-size="13">aliases, order, languages</text>
+  </g>
+  <g transform="translate(90 280)">
+    <rect width="230" height="118" rx="16" fill="#1d1b2f" stroke="#684f8d"/>
+    <text x="24" y="38" fill="#f4c95d" font-family="Inter,Segoe UI,sans-serif" font-size="17" font-weight="700">Void Detection</text>
+    <text x="24" y="70" fill="#f0e5c1" font-family="Inter,Segoe UI,sans-serif" font-size="14">missing titles</text>
+    <text x="24" y="95" fill="#b7a987" font-family="Inter,Segoe UI,sans-serif" font-size="13">TBA, TBD, empty fields</text>
+  </g>
+  <g transform="translate(470 138)">
+    <rect width="270" height="244" rx="28" fill="#0d1f2a" stroke="#38d5ff" stroke-width="2" filter="url(#glow)"/>
+    <text x="135" y="78" text-anchor="middle" fill="#ffffff" font-family="Inter,Segoe UI,sans-serif" font-size="24" font-weight="800">Metadata</text>
+    <text x="135" y="111" text-anchor="middle" fill="#ffffff" font-family="Inter,Segoe UI,sans-serif" font-size="24" font-weight="800">Reconstruction</text>
+    <text x="135" y="150" text-anchor="middle" fill="#8ce4ff" font-family="Inter,Segoe UI,sans-serif" font-size="14">context + policy + continuity</text>
+    <rect x="52" y="184" width="166" height="10" rx="5" fill="#38d5ff"/>
+    <rect x="52" y="205" width="125" height="10" rx="5" fill="#f4c95d"/>
+  </g>
+  <g transform="translate(880 100)">
+    <rect width="230" height="118" rx="16" fill="#132319" stroke="#4cb37a"/>
+    <text x="24" y="38" fill="#8ff0b2" font-family="Inter,Segoe UI,sans-serif" font-size="17" font-weight="700">Review Ready</text>
+    <text x="24" y="70" fill="#dff5e8" font-family="Inter,Segoe UI,sans-serif" font-size="14">localized titles</text>
+    <text x="24" y="95" fill="#9db8a6" font-family="Inter,Segoe UI,sans-serif" font-size="13">clean summaries</text>
+  </g>
+  <g transform="translate(880 280)">
+    <rect width="230" height="118" rx="16" fill="#2a1620" stroke="#a84a71"/>
+    <text x="24" y="38" fill="#ff8aaa" font-family="Inter,Segoe UI,sans-serif" font-size="17" font-weight="700">Distribution</text>
+    <text x="24" y="70" fill="#ffe1e9" font-family="Inter,Segoe UI,sans-serif" font-size="14">JSON, review pages</text>
+    <text x="24" y="95" fill="#c7a0ad" font-family="Inter,Segoe UI,sans-serif" font-size="13">future sidecars</text>
+  </g>
+</svg>
