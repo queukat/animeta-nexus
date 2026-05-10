@@ -1,3 +1,6 @@
+<!-- public-repo-status -->
+> Status: Active metadata tooling. Issues are open for reproducible bugs and focused improvements.
+
 <p align="center">
   <img src="docs/assets/metadata_command_surface.svg" alt="AniMeta Nexus metadata command surface" width="100%">
 </p>
